@@ -18,6 +18,11 @@
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
 
+body {
+  padding: 30px;
+  font-family: $poppins;
+}
+
 ol, ul {
   padding-left: 1.5em;
   .popover &:last-child {

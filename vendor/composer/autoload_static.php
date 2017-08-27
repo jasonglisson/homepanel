@@ -84,6 +84,7 @@ class ComposerStaticInitDrupal8
         'R' => 
         array (
             'RedBeanPHP\\' => 11,
+            'RRule\\' => 6,
         ),
         'P' => 
         array (
@@ -301,6 +302,10 @@ class ComposerStaticInitDrupal8
         'RedBeanPHP\\' => 
         array (
             0 => __DIR__ . '/..' . '/gabordemooij/redbean/RedBeanPHP',
+        ),
+        'RRule\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rlanvin/php-rrule/src',
         ),
         'Psy\\' => 
         array (
